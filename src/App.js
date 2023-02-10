@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
        Formulários em React
       </header>
-      <MyForm/>
+      <MyForm user={{name: 'Mari', email: 'mari@gmail.com'}}/>
     </div>
   );
 }
